@@ -4,6 +4,8 @@ import ServerList from '../serverlist';
 import ServerName from '../servername';
 import ChannelInfo from '../channelinfo';
 import ChannelList from '../channellist';
+import UserInfo from '../userinfo';
+
 
 
 
@@ -15,6 +17,8 @@ const Layout: React.FC = () =>{
       <ServerName></ServerName>
       <ChannelInfo></ChannelInfo>
       <ChannelList></ChannelList>
+      <UserInfo></UserInfo>
+
 
 
 
